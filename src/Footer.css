@@ -1,0 +1,167 @@
+.commentCount_Footer {
+  /* 댓글 8 */
+
+  position: absolute;
+  left: 180px;
+  top: 1797px;
+
+  font-family: "Spoqa Han Sans Neo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+  letter-spacing: -0.03em;
+
+  /* black/black_282828 */
+  color: #282828;
+}
+
+.footerHorizon {
+  position: absolute;
+  left: 180px;
+  top: 1830px;
+  width: calc(100% - 318px);
+  height: 0px;
+
+  opacity: 0.5;
+  /* black/black_282828 */
+  border: 1px solid #282828;
+}
+
+.comment1 .userNickname {
+  position: absolute;
+  left: 180px;
+  top: 1860px;
+}
+
+.comment1 .commentedAt {
+  position: absolute;
+  left: 279px;
+  top: 1862px;
+  color: #b8b8b8;
+}
+
+.comment1 .commentText {
+  position: absolute;
+  left: 180px;
+  top: 1896px;
+}
+
+.comment1 .commentEditIcon {
+  position: absolute;
+  right: calc(150px + 40px);
+  top: 1895px;
+}
+
+.comment1 .commentDelIcon {
+  position: absolute;
+  right: 150px;
+  top: 1895px;
+}
+
+.comment1 .commentHorizon {
+  position: absolute;
+  left: 180px;
+  width: calc(100% - 318px);
+  height: 0px;
+  top: 1935px;
+
+  opacity: 0.5;
+  /* gray/gray_DDDDDD */
+  border: 1px solid #dddddd;
+}
+
+.comment2 .userNickname {
+  position: absolute;
+  left: 180px;
+  top: 1955px;
+}
+
+.comment2 .commentedAt {
+  position: absolute;
+  left: 220px;
+  top: 1958px;
+  color: #b8b8b8;
+}
+
+.comment2 .commentText {
+  position: absolute;
+  left: 180px;
+  top: 1991px;
+}
+
+.comment2 .commentEditIcon {
+  position: absolute;
+  right: calc(150px + 40px);
+  top: 1990px;
+}
+
+.comment2 .commentDelIcon {
+  position: absolute;
+  right: 150px;
+  top: 1990px;
+}
+
+.comment2 .commentHorizon {
+  position: absolute;
+  left: 180px;
+  width: calc(100% - 318px);
+  height: 0px;
+  top: 2030px;
+
+  opacity: 0.5;
+  /* gray/gray_DDDDDD */
+  border: 1px solid #dddddd;
+}
+
+.comment3 .userNickname {
+  position: absolute;
+  left: 180px;
+  top: 2050px;
+}
+
+.comment3 .commentedAt {
+  position: absolute;
+  left: 235px;
+  top: 2053px;
+  color: #b8b8b8;
+}
+
+.comment3 .commentText {
+  position: absolute;
+  left: 180px;
+  top: 2086px;
+}
+
+.comment3 .commentEditIcon {
+  position: absolute;
+  right: calc(150px + 40px);
+  top: 2085px;
+}
+
+.comment3 .commentDelIcon {
+  position: absolute;
+  right: 150px;
+  top: 2085px;
+}
+
+.comment3 .commentHorizon {
+  position: absolute;
+  left: 180px;
+  width: calc(100% - 318px);
+  height: 0px;
+  top: 2126px;
+
+  opacity: 0.5;
+  /* gray/gray_DDDDDD */
+  border: 1px solid #dddddd;
+}
+
+.box {
+  position: absolute;
+  top: 2126px; /* 마지막 댓글 수평선에서 시작해서 120px 아래 */
+  left: 0;
+  width: 100%;
+  height: 120px;
+}

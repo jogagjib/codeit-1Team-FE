@@ -1,0 +1,298 @@
+.EditModal-Background {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center; /* 화면 중앙 배치 */
+  justify-content: center;
+  z-index: 1000;
+  overflow-y: auto; /* 모달이 너무 크면 스크롤 가능 */
+}
+
+.modalContainer-Edit {
+  position: absolute;
+  width: 1120px;
+  height: 794px;
+  left: 50%;
+  top: 50%;
+  background-color: #fafafa;
+  border-radius: 10px;
+  transform: translate(-50%, -50%) scale(1); /* 기본값 */
+  transform-origin: center;
+}
+
+.closeEditModalBtn {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 30px;
+  top: 30px;
+}
+
+.nickname-editModal {
+  position: absolute;
+  top: 130px;
+  left: 80px;
+}
+
+.inputNickname {
+  /* Rectangle 9 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 400px;
+  height: 45px;
+  left: 0px;
+  top: calc(20px + 10px);
+
+  /* gray/gray_FAFAFA */
+  background: #fafafa;
+  /* gray/gray_DDDDDD */
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+}
+
+.postTitle-editModal {
+  position: absolute;
+  left: 80px;
+  top: calc(130px + 115px);
+}
+
+.inputTitle {
+  /* Rectangle 5 */
+  box-sizing: border-box;
+  position: absolute;
+  width: 400px;
+  height: 45px;
+  left: 0px;
+  top: calc(20px + 10px);
+
+  /* gray/gray_FAFAFA */
+  background: #fafafa;
+  /* black/black_282828 */
+  border: 1px solid #282828;
+  border-radius: 6px;
+}
+
+.postImage-editModal {
+  position: absolute;
+  left: 80px;
+  top: calc(130px + 115px + 115px);
+}
+
+.inputImage {
+  /* Rectangle 7 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 290px;
+  height: 45px;
+  left: 0px;
+  top: calc(20px + 10px);
+
+  /* gray/gray_FAFAFA */
+  background: #fafafa;
+  /* gray/gray_DDDDDD */
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+}
+
+.postContent-editModal {
+  position: absolute;
+  left: 80px;
+  top: calc(130px + 115px + 115px + 115px);
+
+  /* Rectangle 7 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 400px;
+  height: 120px;
+
+  /* gray/gray_FAFAFA */
+  background: #fafafa;
+  /* gray/gray_DDDDDD */
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+}
+
+.verticalLine {
+  position: absolute;
+  height: 500px;
+  left: 50%; /* 가로 중앙 정렬 */
+  top: calc(30px + 40px + 60px); /* 모달 제목 아래 60px */
+  transform: translateX(-50%); /* 정가운데 정렬 */
+  opacity: 0.5;
+  /* gray/gray_DDDDDD */
+  border: 1px solid #dddddd;
+}
+
+.postTag-editModal {
+  position: absolute;
+  top: 130px;
+  left: 640px;
+}
+
+.inputTag {
+  /* Rectangle 10 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 400px;
+  height: 45px;
+  left: 640;
+  top: calc(20px + 10px);
+
+  /* gray/gray_FAFAFA */
+  background: #fafafa;
+  /* gray/gray_DDDDDD */
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+}
+
+.postPlace-editModal {
+  position: absolute;
+  left: 640px;
+  top: calc(130px + 115px);
+}
+
+.inputPlace {
+  position: absolute;
+  width: 400px;
+  height: 45px;
+  left: 640;
+  top: calc(20px + 10px);
+
+  /* gray/gray_FAFAFA */
+  background: #fafafa;
+  /* gray/gray_DDDDDD */
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+}
+
+.postMoment-editModal {
+  position: absolute;
+  left: 640px;
+  top: calc(130px + 115px + 115px);
+}
+
+.inputMoment {
+  position: absolute;
+  width: 400px;
+  height: 45px;
+  left: 640;
+  top: calc(20px + 10px);
+
+  /* Rectangle 12 */
+
+  box-sizing: border-box;
+
+  /* gray/gray_FAFAFA */
+  background: #fafafa;
+  /* gray/gray_DDDDDD */
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+}
+
+.postStatus-editModal {
+  position: absolute;
+  left: 640px;
+  top: calc(130px + 115px + 115px + 115px);
+}
+
+.statusOpen {
+  position: absolute;
+  left: 0;
+  top: calc(20px + 10px + 5px);
+}
+
+.checkbox {
+  position: absolute;
+  left: 50px;
+  top: calc(20px + 10px + 9px);
+}
+.editAuthorityPass-editModal {
+  position: absolute;
+  left: 640px;
+  top: calc(130px + 115px + 115px + 115px + 115px);
+}
+
+.editAuthorityPass-editModal .inputPassword {
+  position: absolute;
+  left: 0;
+  top: calc(20px + 10px);
+  width: 400px;
+  height: 45px;
+  /* gray/gray_FAFAFA */
+  background: #fafafa;
+  /* gray/gray_DDDDDD */
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+}
+
+.editMemoryBtn {
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  left: 50%;
+  transform: translateX(-50%); /* 정가운데 정렬 */
+  top: 710px;
+}
+
+.modalContainer-Edit .modalTitle {
+  /* 추억 수정 */
+
+  position: absolute;
+  width: 91px;
+  height: 30px;
+  left: calc(50% - 91px / 2 + 0.5px);
+  top: 30px;
+
+  font-family: "Spoqa Han Sans Neo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: -0.03em;
+
+  /* black/black_282828 */
+  color: #282828;
+}
+
+.modalContainer-Edit .delAuthorityPass {
+  /* 수정 권한 인증 */
+
+  position: absolute;
+  left: 40px;
+  top: calc(30px + 60px + 20px);
+
+  font-family: "Spoqa Han Sans Neo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  letter-spacing: -0.03em;
+
+  /* black/black_282828 */
+  color: #282828;
+}
+
+.passwordInput::placeholder {
+  font-family: "Spoqa Han Sans Neo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.03em;
+  color: #b8b8b8;
+}

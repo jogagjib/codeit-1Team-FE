@@ -1,0 +1,166 @@
+.CommentRegisterModal-Background {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center; /* 화면 중앙 배치 */
+  justify-content: center;
+  z-index: 1000;
+  overflow-y: auto; /* 모달이 너무 크면 스크롤 가능 */
+}
+
+.modalContainer-CommentRegister {
+  position: absolute;
+  width: 480px;
+  height: 700px;
+  left: calc(50% - 480px / 2);
+  top: calc(50% - 700px / 2);
+  background-color: #fafafa;
+  border-radius: 10px;
+}
+
+.closeCommentRegisterModalBtn {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 30px;
+  top: 30px;
+}
+
+.registerBtn-commentRegister {
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  top: 610px;
+
+  /* 가운데 정렬 */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.modalTitle-commentRegister {
+  position: absolute;
+  width: 91px;
+  height: 30px;
+  left: calc(50% - 91px / 2 + 0.5px);
+  top: 40px;
+
+  font-family: "Spoqa Han Sans Neo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: -0.03em;
+  /* black/black_282828 */
+  color: #282828;
+}
+
+.ncikName-commentRegister {
+  position: absolute;
+  width: 44px;
+  height: 20px;
+  top: 130px;
+  left: 40px;
+
+  font-family: "Spoqa Han Sans Neo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  letter-spacing: -0.03em;
+
+  /* black/black_282828 */
+  color: #282828;
+}
+
+.ncikName-commentRegister .inputNickname {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 400px;
+  height: 45px;
+  left: 0;
+  top: 30px;
+
+  /* gray/gray_FAFAFA */
+  background: #fafafa;
+  /* gray/gray_DDDDDD */
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+}
+
+.inputComment-commentRegister {
+  position: absolute;
+  width: 29px;
+  height: 20px;
+  left: 40px;
+  top: calc(130px + 115px);
+
+  font-family: "Spoqa Han Sans Neo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  letter-spacing: -0.03em;
+
+  /* black/black_282828 */
+  color: #282828;
+}
+
+.inputComment-commentRegister .inputComment {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 400px;
+  height: 160px;
+  left: 0;
+  top: 30px;
+
+  /* gray/gray_FAFAFA */
+  background: #fafafa;
+  /* gray/gray_DDDDDD */
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+}
+
+.password-commentRegister {
+  position: absolute;
+  width: 58px;
+  height: 20px;
+  left: 40px;
+  top: calc(130px + 115px + 230px);
+
+  font-family: "Spoqa Han Sans Neo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  letter-spacing: -0.03em;
+
+  /* black/black_282828 */
+  color: #282828;
+}
+
+.password-commentRegister .inputPassword {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 400px;
+  height: 45px;
+  left: 0;
+  top: 30px;
+
+  /* gray/gray_FAFAFA */
+  background: #fafafa;
+  /* gray/gray_DDDDDD */
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+}

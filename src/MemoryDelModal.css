@@ -1,0 +1,105 @@
+.DelModal-Background {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center; /* 화면 중앙 배치 */
+  justify-content: center;
+  z-index: 1000;
+  overflow-y: auto; /* 모달이 너무 크면 스크롤 가능 */
+}
+
+.modalContainer-Delete {
+  position: absolute;
+  width: 480px;
+  height: 335px;
+  left: 50%;
+  top: 50%;
+  background-color: #fafafa;
+  border-radius: 10px;
+  transform: translate(-50%, -50%) scale(1); /* 기본값 */
+  transform-origin: center;
+}
+
+.closeDelModalBtn {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 30px;
+  top: 30px;
+}
+
+.modalTitle-memoryDelete {
+  /* 추억 삭제 */
+  position: absolute;
+  width: 91px;
+  height: 30px;
+  left: calc(50% - 91px / 2 + 0.5px);
+  top: 30px;
+
+  font-family: "Spoqa Han Sans Neo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: -0.03em;
+
+  /* black/black_282828 */
+  color: #282828;
+}
+
+.modalContainer-Delete .delAuthorityPass {
+  /* 삭제 권한 인증 */
+
+  position: absolute;
+  left: 40px;
+  top: calc(30px + 60px + 20px);
+
+  font-family: "Spoqa Han Sans Neo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  letter-spacing: -0.03em;
+
+  /* black/black_282828 */
+  color: #282828;
+}
+
+.modalContainer-Delete .inputPassword {
+  position: absolute;
+  width: 400px;
+  height: 45px;
+  left: 40px;
+  top: calc(30px + 60px + 20px + 10px + 20px);
+
+  /* gray/gray_FAFAFA */
+  background: #fafafa;
+  /* gray/gray_DDDDDD */
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+}
+
+.passwordInput::placeholder {
+  font-family: "Spoqa Han Sans Neo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.03em;
+  color: #b8b8b8;
+}
+
+.modalContainer-Delete .delMemoryBtn {
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  right: 5px;
+  top: 116px;
+}

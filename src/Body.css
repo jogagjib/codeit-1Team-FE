@@ -1,0 +1,38 @@
+.postImg {
+  position: absolute;
+  width: 780px;
+  height: 780px;
+  left: calc(50% - 780px / 2);
+  top: 483px;
+  border-radius: 6px;
+}
+
+.postContent {
+  /* 인천 앞바다에서 월척을 낚았습니다! 가족들과 기억에 오래도록 남을 멋진 하루였어요 가족들과 기억에 오래도록 남을 멋진 하루였어요 가족들과 기억에 오래도록 남을 멋진 하루였어요 인천 앞바다에서 월척을 낚았습니다! 가족들과 기억에 오래도록 남을 멋진 하루였어요 인천 앞바다에서 월척을 낚았습니다! */
+
+  position: absolute;
+  width: 780px;
+  height: 224px;
+  left: calc(50% - 780px / 2);
+  top: 1323px;
+
+  font-family: "Spoqa Han Sans Neo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 140% */
+  letter-spacing: -0.03em;
+
+  /* black/black_282828 */
+  color: #282828;
+}
+
+.commentEnrollBtn {
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  top: 1667px;
+  left: 50%;
+  transform: translateX(-50%);
+}
